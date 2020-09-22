@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link rel="icon" href="images/logo.png" type="image/icon type" />
     <link
       href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"
       rel="stylesheet"
@@ -253,7 +253,6 @@
           </div>
         </div>
       </div>
-      
 
       <div class="feature-big" id="projects-section">
         <div class="container">
@@ -273,7 +272,10 @@
               <h2 class="text-black">Datta tutorials Mobile application</h2>
               <p class="mb-4">
                 We created a LMS for e-learning, check it out on
-                <a href="https://play.google.com/store/apps/details?id=com.dattatutorials.app" target="_blank" class="font-weight-bold"
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.dattatutorials.app"
+                  target="_blank"
+                  class="font-weight-bold"
                   >Playstore</a
                 >
               </p>
@@ -332,7 +334,9 @@
                     />
                   </div>
                   <div class="mr-auto text-black">
-                    <strong class="font-weight-bold mb-0">Srinivas Murty</strong>
+                    <strong class="font-weight-bold mb-0"
+                      >Srinivas Murty</strong
+                    >
                     <br />
                     Co-Founder, dattatutorials
                   </div>
@@ -363,17 +367,26 @@
             </div>
             <div class="col-lg-5 ml-auto pl-lg-5">
               <h2 class="text-black mb-4 h3 font-weight-bold">Our Mission</h2>
-              <p class="mb-5 text-black" style="font-size: 18px;">
+              <p class="mb-5 text-black" style="font-size: 18px">
                 The world of IT Services is transforming and we had a decision
                 to make. Either businesses need to focus on building their own
                 technology and delivery teams, or they need to focus on properly
                 aligning with their customers and focus on their success and
                 delivering successful projects.
               </p>
-              <ul class="ul-check list-unstyled success text-black"  style="font-size: 16px;">
+              <ul
+                class="ul-check list-unstyled success text-black"
+                style="font-size: 16px"
+              >
                 <li>Provide our customers with exceptional service</li>
-                <li>Work together, across boundaries, to meet the needs of our customers and to help our Company win</li>
-                <li>Uphold the highest standards of integrity in all of our actions</li>
+                <li>
+                  Work together, across boundaries, to meet the needs of our
+                  customers and to help our Company win
+                </li>
+                <li>
+                  Uphold the highest standards of integrity in all of our
+                  actions
+                </li>
               </ul>
               <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
             </div>
@@ -681,9 +694,10 @@
               <form
                 method="post"
                 name="contact-form"
-                action="https://discordapp.com/api/webhooks/750000145118265495/2eVHo20pFzTyP_3dSguDF7PQnkq_BGyQOAwg4ZLxpfAWoPayxkyGGshw3vX9wzSgKhJ-"
+                action="https://discordapp.com/api/webhooks/757957625852723360/4VDfxpnCtsVhbT_DFdUq2uUMZVMHYDyW9I0DDAvcytDdChfvZHhQMvdsYWFdCYgKu9hs"
                 class="p-5"
                 style="border-radius: 20px"
+                onsubmit="this.submit(); this.reset(); return false;"
               >
                 <!-- <h2 class="h4 text-black mb-5">Contact Form</h2>  -->
 
@@ -707,22 +721,22 @@
                   </div>
                 </div>
 
-                <div class="row form-group">
+                <!-- <div class="row form-group">
                   <div class="col-md-12">
-                    <label class="text-white" for="email"
-                      ><h4>Your Email*</h4></label
+                    <label class="text-white" for="desc"
+                      ><h4>Leave a message here*</h4></label
                     >
                     <input
                       name="content"
-                      id="email"
-                      type="email"
+                      id="desc"
+                      type="text area"
                       pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
                       class="form-control form-control-lg"
                       placeholder=""
                       required
                     />
                   </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="row form-group">
                 
@@ -732,12 +746,21 @@
                 </div>
               </div> -->
 
-                <!-- <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="4" class="form-control" placeholder="Leave your message here..."></textarea>
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-white" for="desc"
+                      ><h4>Message*</h4></label
+                    >
+                    <textarea
+                      name="content"
+                      id="message"
+                      cols="30"
+                      rows="4"
+                      class="form-control"
+                      placeholder="Leave your message here..."
+                    ></textarea>
+                  </div>
                 </div>
-              </div> -->
 
                 <div class="row form-group">
                   <div class="col-md-12 text-center">
@@ -745,6 +768,7 @@
                       type="submit"
                       value="Send Message"
                       class="btn btn-sm contact-button mr-2 mb-2"
+                      onclick="window.location.reload()"
                     />
                   </div>
                 </div>
@@ -796,7 +820,7 @@
     <script src="js/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
-
+    
     <script src="js/main.js"></script>
   </body>
 </html>
